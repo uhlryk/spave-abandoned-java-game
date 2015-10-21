@@ -1,0 +1,9 @@
+View
+1)Controller nie dba o view. Ten jest obs³ugiwany samodzielnie
+2)COntroller dysponuje metodami setView i getView by ³atwo mo¿na by³o wpi¹æ siê w rodzica
+3)kontroller na koñcu tylko usuwa wskaŸnik z widoku!
+
+Loader
+1)Controller wywo³uje automatycznie loader jesli ten nie zosta³ za³adowany w onload
+2)Controller domyœlnie ustawia loader w momencie u¿ycie w ViewManager z ControllManagera i go z tamt¹d na koñcu usuwa
+3)Controller dba o czyszczenie loadera
